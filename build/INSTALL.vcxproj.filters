@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\fc9b3db55745abef1c6b895b643263b5\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{57F94E76-E145-387C-99E4-F7AB1ED5FF1C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

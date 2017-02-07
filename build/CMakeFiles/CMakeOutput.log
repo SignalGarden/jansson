@@ -1,0 +1,1312 @@
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:16 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\3.7.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\3.7.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\3.7.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.72
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/3.7.1/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3db96.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:17 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_3db96.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3db96.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3db96.dir\Debug\cmTC_3db96.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3db96.dir\Debug\cmTC_3db96.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3db96.dir\Debug\\" /Fd"cmTC_3db96.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3db96.dir\Debug\\" /Fd"cmTC_3db96.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_3db96.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_3db96.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_3db96.lib" /MACHINE:X64  /machine:x64 cmTC_3db96.dir\Debug\testCCompiler.obj
+  cmTC_3db96.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_3db96.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_3db96.dir\Debug\cmTC_3db96.tlog\unsuccessfulbuild".
+  Touching "cmTC_3db96.dir\Debug\cmTC_3db96.tlog\cmTC_3db96.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_3db96.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_009a2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:18 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_009a2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_009a2.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_009a2.dir\Debug\cmTC_009a2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_009a2.dir\Debug\cmTC_009a2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_009a2.dir\Debug\\" /Fd"cmTC_009a2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_009a2.dir\Debug\\" /Fd"cmTC_009a2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_009a2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_009a2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_009a2.lib" /MACHINE:X64  /machine:x64 cmTC_009a2.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_009a2.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_009a2.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_009a2.dir\Debug\cmTC_009a2.tlog\unsuccessfulbuild".
+  Touching "cmTC_009a2.dir\Debug\cmTC_009a2.tlog\cmTC_009a2.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_009a2.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cc822.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:20 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_cc822.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_cc822.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_cc822.dir\Debug\cmTC_cc822.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_cc822.dir\Debug\cmTC_cc822.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc822.dir\Debug\\" /Fd"cmTC_cc822.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc822.dir\Debug\\" /Fd"cmTC_cc822.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_cc822.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_cc822.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_cc822.lib" /MACHINE:X64  /machine:x64 cmTC_cc822.dir\Debug\CheckIncludeFiles.obj
+  cmTC_cc822.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_cc822.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_cc822.dir\Debug\cmTC_cc822.tlog\unsuccessfulbuild".
+  Touching "cmTC_cc822.dir\Debug\cmTC_cc822.tlog\cmTC_cc822.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_cc822.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_42d70.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:23 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_42d70.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_42d70.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_42d70.dir\Debug\cmTC_42d70.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_42d70.dir\Debug\cmTC_42d70.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42d70.dir\Debug\\" /Fd"cmTC_42d70.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42d70.dir\Debug\\" /Fd"cmTC_42d70.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_42d70.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_42d70.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_42d70.lib" /MACHINE:X64  /machine:x64 cmTC_42d70.dir\Debug\CheckIncludeFiles.obj
+  cmTC_42d70.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_42d70.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_42d70.dir\Debug\cmTC_42d70.tlog\unsuccessfulbuild".
+  Touching "cmTC_42d70.dir\Debug\cmTC_42d70.tlog\cmTC_42d70.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_42d70.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+
+
+Determining if the function close exists passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9e665.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:26 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_9e665.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9e665.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9e665.dir\Debug\cmTC_9e665.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9e665.dir\Debug\cmTC_9e665.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=close /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e665.dir\Debug\\" /Fd"cmTC_9e665.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=close /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e665.dir\Debug\\" /Fd"cmTC_9e665.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_9e665.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_9e665.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_9e665.lib" /MACHINE:X64  /machine:x64 cmTC_9e665.dir\Debug\CheckFunctionExists.obj
+  cmTC_9e665.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_9e665.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_9e665.dir\Debug\cmTC_9e665.tlog\unsuccessfulbuild".
+  Touching "cmTC_9e665.dir\Debug\cmTC_9e665.tlog\cmTC_9e665.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_9e665.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+
+
+Determining if the function getpid exists passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d55cc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:27 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_d55cc.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d55cc.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d55cc.dir\Debug\cmTC_d55cc.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_d55cc.dir\Debug\cmTC_d55cc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpid /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d55cc.dir\Debug\\" /Fd"cmTC_d55cc.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpid /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d55cc.dir\Debug\\" /Fd"cmTC_d55cc.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_d55cc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_d55cc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_d55cc.lib" /MACHINE:X64  /machine:x64 cmTC_d55cc.dir\Debug\CheckFunctionExists.obj
+  cmTC_d55cc.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_d55cc.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_d55cc.dir\Debug\cmTC_d55cc.tlog\unsuccessfulbuild".
+  Touching "cmTC_d55cc.dir\Debug\cmTC_d55cc.tlog\cmTC_d55cc.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_d55cc.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+
+
+Determining if the function open exists passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4d9e2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:29 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_4d9e2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4d9e2.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4d9e2.dir\Debug\cmTC_4d9e2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4d9e2.dir\Debug\cmTC_4d9e2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=open /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4d9e2.dir\Debug\\" /Fd"cmTC_4d9e2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=open /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4d9e2.dir\Debug\\" /Fd"cmTC_4d9e2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_4d9e2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_4d9e2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_4d9e2.lib" /MACHINE:X64  /machine:x64 cmTC_4d9e2.dir\Debug\CheckFunctionExists.obj
+  cmTC_4d9e2.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_4d9e2.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_4d9e2.dir\Debug\cmTC_4d9e2.tlog\unsuccessfulbuild".
+  Touching "cmTC_4d9e2.dir\Debug\cmTC_4d9e2.tlog\cmTC_4d9e2.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_4d9e2.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+Determining if the function read exists passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_754a5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:30 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_754a5.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_754a5.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_754a5.dir\Debug\cmTC_754a5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_754a5.dir\Debug\cmTC_754a5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=read /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_754a5.dir\Debug\\" /Fd"cmTC_754a5.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=read /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_754a5.dir\Debug\\" /Fd"cmTC_754a5.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_754a5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_754a5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_754a5.lib" /MACHINE:X64  /machine:x64 cmTC_754a5.dir\Debug\CheckFunctionExists.obj
+  cmTC_754a5.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_754a5.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_754a5.dir\Debug\cmTC_754a5.tlog\unsuccessfulbuild".
+  Touching "cmTC_754a5.dir\Debug\cmTC_754a5.tlog\cmTC_754a5.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_754a5.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f3362.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:32 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_f3362.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f3362.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f3362.dir\Debug\cmTC_f3362.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f3362.dir\Debug\cmTC_f3362.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3362.dir\Debug\\" /Fd"cmTC_f3362.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3362.dir\Debug\\" /Fd"cmTC_f3362.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_f3362.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_f3362.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_f3362.lib" /MACHINE:X64  /machine:x64 cmTC_f3362.dir\Debug\CheckIncludeFiles.obj
+  cmTC_f3362.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_f3362.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_f3362.dir\Debug\cmTC_f3362.tlog\unsuccessfulbuild".
+  Touching "cmTC_f3362.dir\Debug\cmTC_f3362.tlog\cmTC_f3362.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_f3362.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_caa2c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:33 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_caa2c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_caa2c.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_caa2c.dir\Debug\cmTC_caa2c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_caa2c.dir\Debug\cmTC_caa2c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_caa2c.dir\Debug\\" /Fd"cmTC_caa2c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_caa2c.dir\Debug\\" /Fd"cmTC_caa2c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_caa2c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_caa2c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_caa2c.lib" /MACHINE:X64  /machine:x64 cmTC_caa2c.dir\Debug\CheckIncludeFile.obj
+  cmTC_caa2c.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_caa2c.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_caa2c.dir\Debug\cmTC_caa2c.tlog\unsuccessfulbuild".
+  Touching "cmTC_caa2c.dir\Debug\cmTC_caa2c.tlog\cmTC_caa2c.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_caa2c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ca518.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:34 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_ca518.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ca518.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ca518.dir\Debug\cmTC_ca518.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ca518.dir\Debug\cmTC_ca518.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ca518.dir\Debug\\" /Fd"cmTC_ca518.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\__INT64.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ca518.dir\Debug\\" /Fd"cmTC_ca518.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\__INT64.c
+  
+  __INT64.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_ca518.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_ca518.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_ca518.lib" /MACHINE:X64  /machine:x64 cmTC_ca518.dir\Debug\__INT64.obj
+  cmTC_ca518.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_ca518.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_ca518.dir\Debug\cmTC_ca518.tlog\unsuccessfulbuild".
+  Touching "cmTC_ca518.dir\Debug\cmTC_ca518.tlog\cmTC_ca518.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_ca518.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f1e05.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:35 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_f1e05.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f1e05.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f1e05.dir\Debug\cmTC_f1e05.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f1e05.dir\Debug\cmTC_f1e05.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1e05.dir\Debug\\" /Fd"cmTC_f1e05.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\INT64_T.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1e05.dir\Debug\\" /Fd"cmTC_f1e05.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\INT64_T.c
+  
+  INT64_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_f1e05.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_f1e05.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_f1e05.lib" /MACHINE:X64  /machine:x64 cmTC_f1e05.dir\Debug\INT64_T.obj
+  cmTC_f1e05.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_f1e05.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_f1e05.dir\Debug\cmTC_f1e05.tlog\unsuccessfulbuild".
+  Touching "cmTC_f1e05.dir\Debug\cmTC_f1e05.tlog\cmTC_f1e05.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_f1e05.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+
+
+Determining size of long long passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ea692.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:36 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_ea692.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ea692.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ea692.dir\Debug\cmTC_ea692.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ea692.dir\Debug\cmTC_ea692.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea692.dir\Debug\\" /Fd"cmTC_ea692.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\LONG_LONG_INT.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea692.dir\Debug\\" /Fd"cmTC_ea692.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\LONG_LONG_INT.c
+  
+  LONG_LONG_INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_ea692.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_ea692.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_ea692.lib" /MACHINE:X64  /machine:x64 cmTC_ea692.dir\Debug\LONG_LONG_INT.obj
+  cmTC_ea692.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_ea692.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_ea692.dir\Debug\cmTC_ea692.tlog\unsuccessfulbuild".
+  Touching "cmTC_ea692.dir\Debug\cmTC_ea692.tlog\cmTC_ea692.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_ea692.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_13a75.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:37 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_13a75.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_13a75.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_13a75.dir\Debug\cmTC_13a75.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_13a75.dir\Debug\cmTC_13a75.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13a75.dir\Debug\\" /Fd"cmTC_13a75.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\INT32_T.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13a75.dir\Debug\\" /Fd"cmTC_13a75.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\INT32_T.c
+  
+  INT32_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_13a75.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_13a75.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_13a75.lib" /MACHINE:X64  /machine:x64 cmTC_13a75.dir\Debug\INT32_T.obj
+  cmTC_13a75.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_13a75.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_13a75.dir\Debug\cmTC_13a75.tlog\unsuccessfulbuild".
+  Touching "cmTC_13a75.dir\Debug\cmTC_13a75.tlog\cmTC_13a75.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_13a75.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Determining size of __int32 passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3f7bc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:38 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_3f7bc.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3f7bc.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3f7bc.dir\Debug\cmTC_3f7bc.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3f7bc.dir\Debug\cmTC_3f7bc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f7bc.dir\Debug\\" /Fd"cmTC_3f7bc.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\__INT32.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f7bc.dir\Debug\\" /Fd"cmTC_3f7bc.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\__INT32.c
+  
+  __INT32.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_3f7bc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_3f7bc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_3f7bc.lib" /MACHINE:X64  /machine:x64 cmTC_3f7bc.dir\Debug\__INT32.obj
+  cmTC_3f7bc.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_3f7bc.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_3f7bc.dir\Debug\cmTC_3f7bc.tlog\unsuccessfulbuild".
+  Touching "cmTC_3f7bc.dir\Debug\cmTC_3f7bc.tlog\cmTC_3f7bc.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_3f7bc.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+Determining size of long passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_53ee3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:39 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_53ee3.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_53ee3.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_53ee3.dir\Debug\cmTC_53ee3.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_53ee3.dir\Debug\cmTC_53ee3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_53ee3.dir\Debug\\" /Fd"cmTC_53ee3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\LONG_INT.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_53ee3.dir\Debug\\" /Fd"cmTC_53ee3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\LONG_INT.c
+  
+  LONG_INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_53ee3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_53ee3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_53ee3.lib" /MACHINE:X64  /machine:x64 cmTC_53ee3.dir\Debug\LONG_INT.obj
+  cmTC_53ee3.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_53ee3.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_53ee3.dir\Debug\cmTC_53ee3.tlog\unsuccessfulbuild".
+  Touching "cmTC_53ee3.dir\Debug\cmTC_53ee3.tlog\cmTC_53ee3.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_53ee3.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+Determining size of int passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_325d6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:40 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_325d6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_325d6.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_325d6.dir\Debug\cmTC_325d6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_325d6.dir\Debug\cmTC_325d6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_325d6.dir\Debug\\" /Fd"cmTC_325d6.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\INT.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_325d6.dir\Debug\\" /Fd"cmTC_325d6.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\INT.c
+  
+  INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_325d6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_325d6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_325d6.lib" /MACHINE:X64  /machine:x64 cmTC_325d6.dir\Debug\INT.obj
+  cmTC_325d6.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_325d6.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_325d6.dir\Debug\cmTC_325d6.tlog\unsuccessfulbuild".
+  Touching "cmTC_325d6.dir\Debug\cmTC_325d6.tlog\cmTC_325d6.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_325d6.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cd788.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:41 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_cd788.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_cd788.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_cd788.dir\Debug\cmTC_cd788.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_cd788.dir\Debug\cmTC_cd788.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd788.dir\Debug\\" /Fd"cmTC_cd788.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_INT.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd788.dir\Debug\\" /Fd"cmTC_cd788.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\UNSIGNED_LONG_INT.c
+  
+  UNSIGNED_LONG_INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_cd788.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_cd788.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_cd788.lib" /MACHINE:X64  /machine:x64 cmTC_cd788.dir\Debug\UNSIGNED_LONG_INT.obj
+  cmTC_cd788.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_cd788.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_cd788.dir\Debug\cmTC_cd788.tlog\unsuccessfulbuild".
+  Touching "cmTC_cd788.dir\Debug\cmTC_cd788.tlog\cmTC_cd788.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_cd788.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_96ebb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:42 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_96ebb.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_96ebb.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_96ebb.dir\Debug\cmTC_96ebb.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_96ebb.dir\Debug\cmTC_96ebb.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_96ebb.dir\Debug\\" /Fd"cmTC_96ebb.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\UNSIGNED_INT.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_96ebb.dir\Debug\\" /Fd"cmTC_96ebb.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\UNSIGNED_INT.c
+  
+  UNSIGNED_INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_96ebb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_96ebb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_96ebb.lib" /MACHINE:X64  /machine:x64 cmTC_96ebb.dir\Debug\UNSIGNED_INT.obj
+  cmTC_96ebb.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_96ebb.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_96ebb.dir\Debug\cmTC_96ebb.tlog\unsuccessfulbuild".
+  Touching "cmTC_96ebb.dir\Debug\cmTC_96ebb.tlog\cmTC_96ebb.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_96ebb.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_459c1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:43 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_459c1.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_459c1.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_459c1.dir\Debug\cmTC_459c1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_459c1.dir\Debug\cmTC_459c1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_459c1.dir\Debug\\" /Fd"cmTC_459c1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\UNSIGNED_SHORT.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_459c1.dir\Debug\\" /Fd"cmTC_459c1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\UNSIGNED_SHORT.c
+  
+  UNSIGNED_SHORT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_459c1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_459c1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_459c1.lib" /MACHINE:X64  /machine:x64 cmTC_459c1.dir\Debug\UNSIGNED_SHORT.obj
+  cmTC_459c1.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_459c1.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_459c1.dir\Debug\cmTC_459c1.tlog\unsuccessfulbuild".
+  Touching "cmTC_459c1.dir\Debug\cmTC_459c1.tlog\cmTC_459c1.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_459c1.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_be86f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:44 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_be86f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_be86f.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_be86f.dir\Debug\cmTC_be86f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_be86f.dir\Debug\cmTC_be86f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be86f.dir\Debug\\" /Fd"cmTC_be86f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\UINT32_T.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be86f.dir\Debug\\" /Fd"cmTC_be86f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\UINT32_T.c
+  
+  UINT32_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_be86f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_be86f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_be86f.lib" /MACHINE:X64  /machine:x64 cmTC_be86f.dir\Debug\UINT32_T.obj
+  cmTC_be86f.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_be86f.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_be86f.dir\Debug\cmTC_be86f.tlog\unsuccessfulbuild".
+  Touching "cmTC_be86f.dir\Debug\cmTC_be86f.tlog\cmTC_be86f.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_be86f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6a099.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:46 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_6a099.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6a099.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6a099.dir\Debug\cmTC_6a099.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6a099.dir\Debug\cmTC_6a099.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a099.dir\Debug\\" /Fd"cmTC_6a099.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\UINT16_T.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a099.dir\Debug\\" /Fd"cmTC_6a099.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\UINT16_T.c
+  
+  UINT16_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_6a099.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_6a099.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_6a099.lib" /MACHINE:X64  /machine:x64 cmTC_6a099.dir\Debug\UINT16_T.obj
+  cmTC_6a099.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_6a099.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_6a099.dir\Debug\cmTC_6a099.tlog\unsuccessfulbuild".
+  Touching "cmTC_6a099.dir\Debug\cmTC_6a099.tlog\cmTC_6a099.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_6a099.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_86419.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:47 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_86419.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_86419.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_86419.dir\Debug\cmTC_86419.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_86419.dir\Debug\cmTC_86419.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86419.dir\Debug\\" /Fd"cmTC_86419.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\UINT8_T.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86419.dir\Debug\\" /Fd"cmTC_86419.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CheckTypeSize\UINT8_T.c
+  
+  UINT8_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_86419.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_86419.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_86419.lib" /MACHINE:X64  /machine:x64 cmTC_86419.dir\Debug\UINT8_T.obj
+  cmTC_86419.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_86419.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_86419.dir\Debug\cmTC_86419.tlog\unsuccessfulbuild".
+  Touching "cmTC_86419.dir\Debug\cmTC_86419.tlog\cmTC_86419.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_86419.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8510b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:50 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_8510b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8510b.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8510b.dir\Debug\cmTC_8510b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8510b.dir\Debug\cmTC_8510b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoll /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8510b.dir\Debug\\" /Fd"cmTC_8510b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoll /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8510b.dir\Debug\\" /Fd"cmTC_8510b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_8510b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_8510b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_8510b.lib" /MACHINE:X64  /machine:x64 cmTC_8510b.dir\Debug\CheckFunctionExists.obj
+  cmTC_8510b.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_8510b.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_8510b.dir\Debug\cmTC_8510b.tlog\unsuccessfulbuild".
+  Touching "cmTC_8510b.dir\Debug\cmTC_8510b.tlog\cmTC_8510b.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_8510b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Determining if the function _strtoi64 exists passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c114c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:52 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_c114c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c114c.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c114c.dir\Debug\cmTC_c114c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c114c.dir\Debug\cmTC_c114c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_strtoi64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c114c.dir\Debug\\" /Fd"cmTC_c114c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_strtoi64 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c114c.dir\Debug\\" /Fd"cmTC_c114c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_c114c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_c114c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_c114c.lib" /MACHINE:X64  /machine:x64 cmTC_c114c.dir\Debug\CheckFunctionExists.obj
+  cmTC_c114c.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_c114c.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_c114c.dir\Debug\cmTC_c114c.tlog\unsuccessfulbuild".
+  Touching "cmTC_c114c.dir\Debug\cmTC_c114c.tlog\cmTC_c114c.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_c114c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Determining if files locale.h exist passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cd083.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:53 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_cd083.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_cd083.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_cd083.dir\Debug\cmTC_cd083.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_cd083.dir\Debug\cmTC_cd083.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd083.dir\Debug\\" /Fd"cmTC_cd083.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd083.dir\Debug\\" /Fd"cmTC_cd083.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_cd083.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_cd083.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_cd083.lib" /MACHINE:X64  /machine:x64 cmTC_cd083.dir\Debug\CheckIncludeFiles.obj
+  cmTC_cd083.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_cd083.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_cd083.dir\Debug\cmTC_cd083.tlog\unsuccessfulbuild".
+  Touching "cmTC_cd083.dir\Debug\cmTC_cd083.tlog\cmTC_cd083.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_cd083.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.80
+
+
+Determining if the function localeconv exists passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f7aae.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:54 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_f7aae.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f7aae.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f7aae.dir\Debug\cmTC_f7aae.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f7aae.dir\Debug\cmTC_f7aae.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=localeconv /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7aae.dir\Debug\\" /Fd"cmTC_f7aae.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=localeconv /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7aae.dir\Debug\\" /Fd"cmTC_f7aae.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_f7aae.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_f7aae.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_f7aae.lib" /MACHINE:X64  /machine:x64 cmTC_f7aae.dir\Debug\CheckFunctionExists.obj
+  cmTC_f7aae.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_f7aae.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_f7aae.dir\Debug\cmTC_f7aae.tlog\unsuccessfulbuild".
+  Touching "cmTC_f7aae.dir\Debug\cmTC_f7aae.tlog\cmTC_f7aae.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_f7aae.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+Determining if the function setlocale exists passed with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d3d9f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:55 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_d3d9f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d3d9f.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d3d9f.dir\Debug\cmTC_d3d9f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_d3d9f.dir\Debug\cmTC_d3d9f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setlocale /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3d9f.dir\Debug\\" /Fd"cmTC_d3d9f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setlocale /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3d9f.dir\Debug\\" /Fd"cmTC_d3d9f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_d3d9f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_d3d9f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_d3d9f.lib" /MACHINE:X64  /machine:x64 cmTC_d3d9f.dir\Debug\CheckFunctionExists.obj
+  cmTC_d3d9f.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_d3d9f.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_d3d9f.dir\Debug\cmTC_d3d9f.tlog\unsuccessfulbuild".
+  Touching "cmTC_d3d9f.dir\Debug\cmTC_d3d9f.tlog\cmTC_d3d9f.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_d3d9f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+Performing C SOURCE FILE Test HAVE_INLINE succeeded with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_eaf69.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:56 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_eaf69.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_eaf69.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_eaf69.dir\Debug\cmTC_eaf69.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_eaf69.dir\Debug\cmTC_eaf69.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_INLINE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eaf69.dir\Debug\\" /Fd"cmTC_eaf69.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_INLINE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eaf69.dir\Debug\\" /Fd"cmTC_eaf69.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_eaf69.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_eaf69.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_eaf69.lib" /MACHINE:X64  /machine:x64 cmTC_eaf69.dir\Debug\src.obj
+  cmTC_eaf69.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_eaf69.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_eaf69.dir\Debug\cmTC_eaf69.tlog\unsuccessfulbuild".
+  Touching "cmTC_eaf69.dir\Debug\cmTC_eaf69.tlog\cmTC_eaf69.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_eaf69.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+Source file was:
+inline void func(); void func() { } int main() { func(); return 0; }
+Performing C SOURCE FILE Test HAVE___INLINE succeeded with the following output:
+Change Dir: D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ef3d4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/6/2017 11:15:57 PM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_ef3d4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ef3d4.dir\Debug\".
+  Creating directory "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ef3d4.dir\Debug\cmTC_ef3d4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ef3d4.dir\Debug\cmTC_ef3d4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE___INLINE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ef3d4.dir\Debug\\" /Fd"cmTC_ef3d4.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24213.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE___INLINE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ef3d4.dir\Debug\\" /Fd"cmTC_ef3d4.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_ef3d4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_ef3d4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Danny/SignalGarden/ElectrolyteThirdParty/MIT/jansson/build/CMakeFiles/CMakeTmp/Debug/cmTC_ef3d4.lib" /MACHINE:X64  /machine:x64 cmTC_ef3d4.dir\Debug\src.obj
+  cmTC_ef3d4.vcxproj -> D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\Debug\cmTC_ef3d4.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_ef3d4.dir\Debug\cmTC_ef3d4.tlog\unsuccessfulbuild".
+  Touching "cmTC_ef3d4.dir\Debug\cmTC_ef3d4.tlog\cmTC_ef3d4.lastbuildstate".
+Done Building Project "D:\Danny\SignalGarden\ElectrolyteThirdParty\MIT\jansson\build\CMakeFiles\CMakeTmp\cmTC_ef3d4.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.79
+
+Source file was:
+__inline void func(); void func() { } int main() { func(); return 0; }
