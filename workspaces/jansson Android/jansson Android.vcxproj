@@ -219,35 +219,35 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Android\$(Platform)\</OutDir>
+    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Android\$(Platform)\$(configuration)\</OutDir>
     <IntDir>$(ElectrolyteThirdPartyProjectsPath)\Intermediate\$(ProjectName)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Android\$(Platform)\</OutDir>
+    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Android\$(Platform)\$(configuration)\</OutDir>
     <IntDir>$(ElectrolyteThirdPartyProjectsPath)\Intermediate\$(ProjectName)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
-    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Android\$(Platform)\</OutDir>
+    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Android\$(Platform)\$(configuration)\</OutDir>
     <IntDir>$(ElectrolyteThirdPartyProjectsPath)\Intermediate\$(ProjectName)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
-    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Android\$(Platform)\</OutDir>
+    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Android\$(Platform)\$(configuration)\</OutDir>
     <IntDir>$(ElectrolyteThirdPartyProjectsPath)\Intermediate\$(ProjectName)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
-    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Android\$(Platform)\</OutDir>
+    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Android\$(Platform)\$(configuration)\</OutDir>
     <IntDir>$(ElectrolyteThirdPartyProjectsPath)\Intermediate\$(ProjectName)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
-    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Android\$(Platform)\</OutDir>
+    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Android\$(Platform)\$(configuration)\</OutDir>
     <IntDir>$(ElectrolyteThirdPartyProjectsPath)\Intermediate\$(ProjectName)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
-    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Android\$(Platform)\</OutDir>
+    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Android\$(Platform)\$(configuration)\</OutDir>
     <IntDir>$(ElectrolyteThirdPartyProjectsPath)\Intermediate\$(ProjectName)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
-    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Android\$(Platform)\</OutDir>
+    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Android\$(Platform)\$(configuration)\</OutDir>
     <IntDir>$(ElectrolyteThirdPartyProjectsPath)\Intermediate\$(ProjectName)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

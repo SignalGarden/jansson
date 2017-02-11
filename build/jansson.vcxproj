@@ -99,25 +99,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ElectrolyteThirdPartyProjectsPath)\lib\Windows\$(Platform)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ElectrolyteThirdPartyProjectsPath)\lib\Windows\$(Platform)\$(configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ElectrolyteThirdPartyProjectsPath)\Intermediate\$(ProjectName)\$(PlatformTarget)\$(Configuration)\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">jansson</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">jansson</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ElectrolyteThirdPartyProjectsPath)\lib\Windows\$(Platform)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ElectrolyteThirdPartyProjectsPath)\lib\Windows\$(Platform)\$(configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ElectrolyteThirdPartyProjectsPath)\Intermediate\$(ProjectName)\$(PlatformTarget)\$(Configuration)\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">jansson</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">jansson</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(ElectrolyteThirdPartyProjectsPath)\lib\Windows\$(Platform)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(ElectrolyteThirdPartyProjectsPath)\lib\Windows\$(Platform)\$(configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(ElectrolyteThirdPartyProjectsPath)\Intermediate\$(ProjectName)\$(PlatformTarget)\$(Configuration)\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">jansson</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">jansson</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(ElectrolyteThirdPartyProjectsPath)\lib\Windows\$(Platform)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(ElectrolyteThirdPartyProjectsPath)\lib\Windows\$(Platform)\$(configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(ElectrolyteThirdPartyProjectsPath)\Intermediate\$(ProjectName)\$(PlatformTarget)\$(Configuration)\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">jansson</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">jansson</TargetName>
@@ -125,19 +125,19 @@
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
-    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Windows\$(Platform)\</OutDir>
+    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Windows\$(Platform)\$(configuration)\</OutDir>
     <IntDir>$(ElectrolyteThirdPartyProjectsPath)\Intermediate\$(ProjectName)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Windows\$(Platform)\</OutDir>
+    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Windows\$(Platform)\$(configuration)\</OutDir>
     <IntDir>$(ElectrolyteThirdPartyProjectsPath)\Intermediate\$(ProjectName)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
-    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Windows\$(Platform)\</OutDir>
+    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Windows\$(Platform)\$(configuration)\</OutDir>
     <IntDir>$(ElectrolyteThirdPartyProjectsPath)\Intermediate\$(ProjectName)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Windows\$(Platform)\</OutDir>
+    <OutDir>$(ElectrolyteThirdPartyProjectsPath)\lib\Windows\$(Platform)\$(configuration)\</OutDir>
     <IntDir>$(ElectrolyteThirdPartyProjectsPath)\Intermediate\$(ProjectName)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
